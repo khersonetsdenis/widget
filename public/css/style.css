@@ -1,0 +1,12 @@
+.table_clients {
+width: 100%;
+text-align:center;
+}
+
+.payment_button {
+    margin-right: 30px;
+}
+
+.balance_text {
+    margin: 8px 20px 0 0;
+}
