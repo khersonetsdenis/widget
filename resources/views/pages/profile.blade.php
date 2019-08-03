@@ -97,50 +97,6 @@
                                 </div>
 
 
-
-
-
-                                <form method="POST" action="" accept-charset="UTF-8" class="profile_form last_form"><input name="_token" type="hidden" value="hrguCDXlbIEaB8IMQLOY6bDClUKlJToyOMigJeRT">
-                                    <h2 class="title_config_block mailing_settings"  style="padding: 30px 20px 0 20px">Настройка почтовых уведомлений</h2>
-                                    <div class="form_block">
-                                        <div class="row form-group">
-                                            <div class="col-xs-6 half_block mail_stream_notf"  style="padding: 20px 40px">
-                                                Здесь вы можете включить, отключить некоторые потоки почтовых уведомлений для всего вашего аккаунта.
-                                            </div>
-                                            <div class="col-xs-6 half_block"  style="padding: 0 40px">
-
-                                                <div class="md-checkbox-list">
-                                                    <div class="md-checkbox">
-                                                        <input type="checkbox" id="checkbox1" class="md-check" checked="">
-                                                        <label for="checkbox1">
-                                                            <span class="inc"></span>
-                                                            <span class="check"></span>
-                                                            <span class="box"></span> Присылать на mail уведомления о новых заявках </label>
-                                                    </div>
-                                                    <div class="md-checkbox">
-                                                        <input type="checkbox" id="checkbox2" class="md-check" >
-                                                        <label for="checkbox2">
-                                                            <span class="inc"></span>
-                                                            <span class="check"></span>
-                                                            <span class="box"></span> Присылать на mail уведомления от службы поддержки </label>
-                                                    </div>
-                                                    <div class="md-checkbox">
-                                                        <input type="checkbox" id="checkbox3" class="md-check">
-                                                        <label for="checkbox3">
-                                                            <span class="inc"></span>
-                                                            <span class="check"></span>
-                                                            <span class="box"></span> Присылать на mail информационные рассылки </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="text-center save_changes">
-                                        <input class="btn btn-success" type="submit" value="Сохранить настройки">
-                                    </div>
-                                </form>
-
-
                             </div>
                         </div>
                     </div>
