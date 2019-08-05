@@ -2,548 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19988560-6248-479f-b495-3760f211aa47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Mail/BillMail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Mail/LeadMail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Bill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/BillInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/bill.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/lead.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/success.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/payment.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GiftConstructController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GiftConstructController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LeadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LeadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Leads.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Leads.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/global/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ae.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/af.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/al.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/am.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/an.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/as.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/at.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/au.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/aw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/az.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/be.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/br.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/by.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/bz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/catalonia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ci.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/co.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/cz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/dj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/dk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/dm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/do.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/dz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ec.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/eg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/eh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/england.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/er.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/es.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/et.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/europeanunion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/fr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/gy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/hk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/hm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/hn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/hr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ht.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/hu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/id.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/il.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/io.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/iq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/is.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/jm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/jo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/jp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/km.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/kz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/la.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/li.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/lv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/mz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/na.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/nc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/nf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ni.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/nl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/np.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/nr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/nu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/nz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/om.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/pw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/py.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/qa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/re.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/rs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/rw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/scotland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/se.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/si.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/so.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/st.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/sz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/td.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/th.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/to.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/tz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/um.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/uy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/uz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/va.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/vc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/vg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/vn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/vu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/wales.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/wf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ws.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/ye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/yt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/za.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/zm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/flags/zw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/75.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/77.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/81.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/83.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/84.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/85.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/86.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/87.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/88.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/91.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/93.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/94.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/95.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/96.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/98.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/1200x900/99.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/400x300/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/400x300/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/400x300/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/08-long.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/102.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/103.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/75.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/77.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/81.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/83.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/84.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/85.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/86.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/87.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/88.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/91.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/93.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/94.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/95.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/96.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/98.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/portfolio/600x600/99.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/aboutme.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/amazon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/behance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/blogger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/deviantart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/dribbble.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/dropbox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/evernote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/flickr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/forrst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/foursquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/googleplus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/gravatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/jolicloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/klout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/last-fm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/myspace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/picasa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/pintrest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/quora.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/reddit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/rss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/skype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/spotify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/stumbleupon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/tumblr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/vimeo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/vk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/wordpress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/xing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/yahoo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/global/img/social/youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -556,41 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/includes/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/ViewServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-              <folding>
-                <element signature="e#33#69#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/includes/footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/includes/head.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="731">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -694,9 +123,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
         <option value="$PROJECT_DIR$/app/Providers/ViewServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/head.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/header.blade.php" />
       </list>
     </option>
   </component>
@@ -915,18 +344,19 @@
       <workItem from="1564860473152" duration="3777000" />
       <workItem from="1565014200490" duration="3185000" />
       <workItem from="1565017587618" duration="1919000" />
-      <workItem from="1565019659775" duration="11438000" />
+      <workItem from="1565019659775" duration="11515000" />
+      <workItem from="1565034097604" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246653000" />
+    <option name="totallyTimeSpent" value="246852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38006395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1190,13 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php" />
     <entry file="file://$PROJECT_DIR$/app/Gift.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1313,6 +737,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/ViewServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1325,22 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/includes/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="731">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
         </state>
       </provider>
     </entry>
