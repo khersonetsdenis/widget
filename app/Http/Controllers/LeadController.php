@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\LeadMail;
 use App\User;
 use App\Leads;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class LeadController extends Controller
 {
@@ -24,9 +27,6 @@ class LeadController extends Controller
 		$user = Auth::user();
 
 		$leads = $user->leads()->get();
-		//return response()->json($leads);
-		/*$leads = new Leads();*/
-		//return response()->json($leads);
 		return view('pages.leads', compact('leads'));
     }
 
@@ -55,8 +55,14 @@ class LeadController extends Controller
 			'phone' => 'required'
 		]);
 
+		DB::table('users')->decrement('gifts', 1);
+
+		Mail::to($user)->send(new LeadMail($user));
+
 		$leads = $user->leads()->create($request->all());
+
 		return response()->json($leads);
+
     }
 
     /**
@@ -72,39 +78,5 @@ class LeadController extends Controller
 		return view('pages.leads', compact('leads'));
 
 		//return response()->json(Leads::find($id));
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
     }
 }

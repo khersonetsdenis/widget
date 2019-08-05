@@ -29,15 +29,6 @@ class GiftConstructController extends Controller
 		$gifts = $user->gifts()->get();
 		return view('gift-construct', compact('gifts'));
     }
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -45,7 +36,7 @@ class GiftConstructController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-	public function store(Request $request)
+	/*public function store(Request $request)
 	{
 
 		$user = Auth::user();
@@ -64,7 +55,7 @@ class GiftConstructController extends Controller
 		$user->gifts()->create($request->all());
 		return redirect()->to('/gift-construct');
 	}
-
+*/
     /**
      * Display the specified resource.
      *
@@ -77,16 +68,6 @@ class GiftConstructController extends Controller
 		return view('gift-construct', compact('gift'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
 
     /**
      * Update the specified resource in storage.
@@ -100,16 +81,5 @@ class GiftConstructController extends Controller
 		$gift = Projects::findOrFail($id);
 		$gift->update($request->all());
 		return redirect()->to('/gift-construct');
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
     }
 }

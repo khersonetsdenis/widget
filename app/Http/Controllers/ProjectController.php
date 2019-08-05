@@ -75,16 +75,6 @@ class ProjectController extends Controller
 		return view('gift-construct', compact('project'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
 
     /**
      * Update the specified resource in storage.
@@ -98,18 +88,5 @@ class ProjectController extends Controller
 		$project = Projects::findOrFail($id);
 		$project->update($request->all());
 		return redirect()->to('/gift-construct');
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-		$project = Projects::findOrFail($id);
-		$project->delete();
-		return redirect('/home');
     }
 }

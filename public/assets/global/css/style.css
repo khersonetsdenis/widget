@@ -393,3 +393,111 @@ div#project_table_info {
 .waves-class {
     width: 100%;
 }
+
+.reffil_balance_wrap {
+    border: 1px solid #d7dde8;
+    background: #fff;
+    padding-top: 36px;
+    overflow: auto;
+}
+
+.reffil_balance_title {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    margin: 0 0 1px;
+    text-align: center;
+}
+
+.reffil_balance_top {
+    color: #6d6d6d;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    position: relative;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+
+.rb_item:first-child {
+    border-top: 1px solid #eceef1;
+}
+
+.rb_item_sum {
+    color: #000;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.rb_wrap_icon {
+    width: 36px;
+    display: -ms-inline-flexbox;
+    display: inline-box;
+    display: inline-flex;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.rb_item_sum .ico.ico-1 {
+    width: 21px;
+    height: 18px;
+    background-position: 0 0;
+}
+
+.rb_item_sum .ico {
+    display: block;
+    background: #eceef1;
+    background-color: transparent;
+    background-image: url(/img/account/balance-ico-sprite.png);
+    background-repeat: no-repeat;
+}
+
+.rb_item_sum_2 {
+    color: #000;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.rb_item_sum_2 .ico-prize {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.rb_item_sum_2 .ico-prize svg {
+    width: 20px;
+    height: 20px;
+}
+
+.rb_item_sum_2 > span {
+    font-size: 12px;
+}
+
+.no_prize {
+    color: #afafaf;
+}
+
+li.bonuce_gifts {
+    margin: 23px;
+}

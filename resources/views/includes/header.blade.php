@@ -17,13 +17,16 @@
         <!-- BEGIN PAGE ACTIONS -->
         <!-- DOC: Remove "hide" class to enable the page header actions -->
 
+
+
+
+
         <div class="page-actions">
             <div class="btn-group">
                 <a href="{{ route('create') }}" role="button" class="btn btn-circle btn-outline red dropdown-toggle">
                     <i class="fa fa-plus" aria-hidden="true"></i>
                     Добавить проект</a>
                 </a>
-
             </div>
         </div>
         <!-- END PAGE ACTIONS -->
@@ -35,11 +38,14 @@
                 <ul class="nav navbar-nav pull-right">
                     <!-- BEGIN NOTIFICATION DROPDOWN -->
                     <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-                    <li class="balance"><span class="balance_text">Ваш балланс:</span>
+
+
+                    <li class="balance"><span class="balance_text"><i class="fa fa-gift" aria-hidden="true"></i>Подарков: {{ Auth::user()->gifts }}</span>
                         <button type="button" class="btn blue mt-ladda-btn ladda-button btn-outline" data-style="slide-up" data-spinner-color="#333">
                             <span class="ladda-label">Пополнить балланс</span>
                             <span class="ladda-spinner"></span></button>
                     </li>
+
                     <!-- END NOTIFICATION DROPDOWN -->
                     <!-- BEGIN INBOX DROPDOWN -->
                     <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->

@@ -53,3 +53,7 @@ Route::get('/referral', function () {
 Route::get('/auth', function () {
 	return view('auth.auth');
 });
+
+Route::get('/payment', function () {
+	return view('pages.payment');
+});

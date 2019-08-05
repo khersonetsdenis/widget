@@ -23,21 +23,10 @@ class ProfileController extends Controller
 		$user = Auth::user();
 
 		$profile = $user->where('id', Auth::user()->id);
-		//dd($profile);
 		return view('pages.profile', compact('profile'));
 
-    	//return view('pages.profile');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -45,7 +34,7 @@ class ProfileController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    /*public function store(Request $request)
     {
 		$user = Auth::user();
 
@@ -59,7 +48,7 @@ class ProfileController extends Controller
 
 		$user->create($request->all());
 		return redirect()->to('/profile');
-    }
+    }*/
 
     /**
      * Display the specified resource.
@@ -73,16 +62,6 @@ class ProfileController extends Controller
 		return view('pages.profile', compact('profile'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-		//
-    }
 
     /**
      * Update the specified resource in storage.
@@ -107,31 +86,6 @@ class ProfileController extends Controller
 		return redirect()->to('/profile');
 
 
-		/*$profile = Auth::findOrFail($id);
-		dd($profile);
-		$profile->user()->update($request->all());
-
-		return response()->json($profile);
-		/*return redirect()->to('/profile');*/
-
-		/*$activity = Activity::find($request->id);
-		$activity->cluster_id = $request->cluster_id;
-		$activity->group_id = $request->group_id;
-		$activity->school_id = $request->school_id;
-		$activity->save();
-		return response()->json();*/
-
 
 	}
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }
