@@ -68,7 +68,7 @@
                     <div class="portlet light ">
                         <div id="cardToLoad" class="card">
                             <div class="card-body">
-                                <form class="form searchform" method="GET" action="/user/chat_leads/" style="margin-bottom:10px">
+                                <!--<form class="form searchform" method="GET" action="/user/chat_leads/" style="margin-bottom:10px">
                                     <div class="row">
                                         <div class="col-xs-8 col-sm-9 col-lg-10">
                                             <input type="text" class="form-control searchword" name="searchword" placeholder="Телефон, имя клиента или подарок">
@@ -77,15 +77,15 @@
                                             <button type="submit" class="btn btn-info btn-raised btn-block">Найти</button>
                                         </div>
                                     </div>
-                                </form>
-                                <div class="analytics-btns">
+                                </form>-->
+                                <!--<div class="analytics-btns">
                                     <div class="btn-group">
                                         <button type="button" class="btn ink-reaction btn-default-light current-date active" data-type="today">Сегодня</button>
                                         <button type="button" class="btn ink-reaction btn-default-light current-date" data-type="yesterday">Вчера</button>
                                         <button type="button" class="btn ink-reaction btn-default-light current-date" data-type="week">Неделя</button>
                                         <button type="button" class="btn ink-reaction btn-default-light current-date" data-type="month">Месяц</button>
                                         <button type="button" class="hidden-xs btn ink-reaction btn-default-light current-date" data-type="3month">3 месяца</button>
-                                    </div>
+                                    </div>-->
 
 
 
@@ -95,7 +95,7 @@
                                     <input type="hidden" id="endDateOld" class="btn-last" value="2019-07-30">
                                 </div>
                                 <div class="table-responsive hidden-xs">
-                                    <span class="label label-default">Всего: <strong>0</strong></span>
+                                <!--<span class="label label-default">Всего: <strong>0</strong></span>-->
                                     <table class="table table-hover">
                                         <thead>
                                         <tr>
