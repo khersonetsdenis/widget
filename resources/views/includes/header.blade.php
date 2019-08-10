@@ -18,7 +18,7 @@
         <!-- DOC: Remove "hide" class to enable the page header actions -->
 
 
-    <!--<div class="page-actions">
+        <div class="page-actions">
             <div class="btn-group">
                 <button type="button" class="btn btn-circle btn-outline red dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-plus"></i>&nbsp;
@@ -26,7 +26,7 @@
                     <i class="fa fa-angle-down"></i>
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                    @if (!isset($projects))
+                    @if (!$projects->isEmpty())
                         @foreach($projects as $project)
                             <li>
                                 <a href="{{ route('show_project', ['id' => $project->id]) }}">
@@ -44,17 +44,10 @@
                     @endif
                 </ul>
             </div>
-        </div> -->
-
-
-        <div class="page-actions">
-            <div class="btn-group">
-                <a href="{{ route('create') }}" role="button" class="btn btn-circle btn-outline red dropdown-toggle">
-                    <i class="fa fa-plus" aria-hidden="true"></i>
-                    Добавить проект</a>
-                </a>
-            </div>
         </div>
+
+
+
         <!-- END PAGE ACTIONS -->
         <!-- BEGIN PAGE TOP -->
         <div class="page-top">

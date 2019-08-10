@@ -38538,7 +38538,8 @@ var render = function() {
                       attrs: {
                         id: "giftnameinput",
                         name: "title",
-                        placeholder: "Введите название подарка"
+                        placeholder: "Введите название подарка",
+                        required: "required"
                       },
                       domProps: { value: _vm.giftname },
                       on: {
@@ -38684,7 +38685,8 @@ var render = function() {
                         attrs: {
                           type: "text",
                           name: "name",
-                          placeholder: "Введите имя"
+                          placeholder: "Введите имя",
+                          required: "required"
                         },
                         domProps: { value: _vm.leadname },
                         on: {
@@ -38714,7 +38716,8 @@ var render = function() {
                         attrs: {
                           type: "text",
                           name: "phone",
-                          placeholder: "Введите телефон"
+                          placeholder: "Введите телефон",
+                          required: "required"
                         },
                         domProps: { value: _vm.leadphone },
                         on: {
@@ -54079,7 +54082,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: [{
-    path: '/gift-construct',
+    path: '/gift-construct/1',
     component: _components_GiftConstructComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
   }],
   mode: 'history'

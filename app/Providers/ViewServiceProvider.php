@@ -24,13 +24,12 @@ class ViewServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-		/*view()->composer(
+		view()->composer(
 			'includes.header', function ($view) {
 			$user = Auth::user();
 			$projects = $user->projects()->get();
 			$view->with('projects', $projects);
 		}
 		);
-*/
 	}
 }

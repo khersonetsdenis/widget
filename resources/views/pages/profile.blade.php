@@ -85,7 +85,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="label_form">Телефон</label>
-                                                <input class="form-control venyoo_input" id="account_phone" name="phone" type="text" value="{{ Auth::user()->phone }}">
+                                                <input class="form-control venyoo_input" id="account_phone" required="required" name="phone" type="text" value="{{ Auth::user()->phone }}">
                                             </div>
 
                                         </div>

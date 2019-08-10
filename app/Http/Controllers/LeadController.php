@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\LeadMail;
 use App\User;
 use App\Leads;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -57,11 +58,16 @@ class LeadController extends Controller
 
 		DB::table('users')->decrement('gifts', 1);
 
-		Mail::to($user)->send(new LeadMail($user));
+		if (Carbon::now()->addDays(5) && Auth::user()->gifts < 0) {
+			return null;
+		} else {
+			Mail::to($user)->send(new LeadMail($user));
 
-		$leads = $user->leads()->create($request->all());
+			$leads = $user->leads()->create($request->all());
 
-		return response()->json($leads);
+			return response()->json($leads);
+		}
+
 
     }
 

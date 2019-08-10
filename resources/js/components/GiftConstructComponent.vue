@@ -181,7 +181,7 @@
                            <div class="col-md-6">
                                <form action="./api/gifts" method="post" v-on:submit.prevent="addNewGift">
                                    <label for="giftnameinput">Название подарка</label>
-                                   <input v-model="giftname" id="giftnameinput" class="form-control" name="title" placeholder="Введите название подарка">
+                                   <input v-model="giftname" id="giftnameinput" class="form-control" name="title" placeholder="Введите название подарка" required="required">
                                    <button v-if="this.isEdit == false" type="submit" class="btn btn-success btn-block  mt-3">
                                        Добавить
                                    </button>
@@ -235,11 +235,11 @@
                                 <form action="./api/leads"  method='POST' v-on:submit.prevent="addNewLead">
                                     <div class="form-group">
                                         <label>Имя</label>
-                                        <input v-model="leadname" type="text" name="name" class="form-control" placeholder="Введите имя">
+                                        <input v-model="leadname" type="text" name="name" class="form-control" placeholder="Введите имя" required="required">
                                     </div>
                                     <div class="form-group">
                                         <label>Телефон</label>
-                                        <input v-model="leadphone" type="text" name="phone" class="form-control" placeholder="Введите телефон">
+                                        <input v-model="leadphone" type="text" name="phone" class="form-control" placeholder="Введите телефон" required="required">
                                     </div>
                                     <button type="submit" class="btn btn-primary">Отправить</button>
                                 </form>

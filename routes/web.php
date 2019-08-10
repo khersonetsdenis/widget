@@ -24,7 +24,7 @@ Route::post('/gift-construct/{id}/edit', 'ProjectController@update')->name('upda
 Route::get('/createProjects', 'ProjectController@index')->name('project');
 Route::get('createProject', 'ProjectController@create')->name('create');
 Route::post('createProject', 'ProjectController@store')->name('create_project');
-Route::get('createProject/{id}', 'ProjectController@show')->name('show_project');
+Route::get('gift-construct/{id}', 'ProjectController@show')->name('show_project');
 Route::delete('createProject/{id}', 'ProjectController@destroy')->name('delete_project');
 
 Route::get('/leads', 'LeadController@index')->name('leads');

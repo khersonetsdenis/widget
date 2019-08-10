@@ -19,14 +19,6 @@ class Bill implements BillInterface
 
 		if (Carbon::now() && Auth::user()->gifts < 0) {
 			Mail::to($user)->send(new BillMail($user));
-		} elseif (Carbon::now()->addDay() && Auth::user()->gifts < 0) {
-			Mail::to($user)->send(new BillMail($user));
-		} elseif (Carbon::now()->addDay() && Auth::user()->gifts < 0) {
-			Mail::to($user)->send(new BillMail($user));
-		} elseif (Carbon::now()->addDay() && Auth::user()->gifts < 0) {
-			Mail::to($user)->send(new BillMail($user));
-		} elseif (Carbon::now()->addDay() && Auth::user()->gifts < 0) {
-			Mail::to($user)->send(new BillMail($user));
 		} else Mail::to($user)->send(new BillSuccessMail($user));
 	}
 
