@@ -57,3 +57,11 @@ Route::get('/auth', function () {
 Route::get('/payment', function () {
 	return view('pages.payment');
 });
+
+
+Route::get('/pay', function () {
+    return view('pages.pay');
+});
+
+
+Route::get('/pay1', 'Payment@checkoutInfo')->name('refundPayment');

@@ -501,3 +501,56 @@ div#project_table_info {
 li.bonuce_gifts {
     margin: 23px;
 }
+
+.mt-element-step .step-thin .mt-step-col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-grey {
+    background: #E5E5E5!important;
+}
+
+.mt-element-step .step-thin .mt-step-number {
+    font-size: 26px;
+    border-radius: 50%!important;
+    float: left;
+    margin: auto;
+    padding: 3px 14px;
+}
+
+.font-grey {
+    color: #E5E5E5!important;
+}
+
+.bg-white {
+    background: #fff!important;
+}
+
+.mt-element-step .step-thin .mt-step-title {
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 60px;
+    margin-top: -4px;
+}
+
+.font-grey-cascade {
+    color: #95A5A6!important;
+}
+
+.uppercase {
+    text-transform: uppercase!important;
+}
+
+.mt-element-step .step-thin .mt-step-content {
+    padding-left: 60px;
+    margin-top: -5px;
+}
+
+.font-grey-cascade {
+    color: #95A5A6!important;
+}
+
+.icon-gift-fs {
+    font-size: 20px;
+}

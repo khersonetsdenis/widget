@@ -11,21 +11,20 @@
 <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
 <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-
+<link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN THEME GLOBAL STYLES -->
 <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
-<!--<link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />-->
+<link href="../assets/global/plugins/bootstrap-colorpicker/css/colorpicker.css" rel="stylesheet" type="text/css" />
+<link href="../assets/global/plugins/jquery-minicolors/jquery.minicolors.css" rel="stylesheet" type="text/css" />
+<link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
 <link href="../assets/global/css/style.css" rel="stylesheet" type="text/css" />
+<link href="dist/css/bootstrap-colorpicker.css" rel="stylesheet">
 <!-- END THEME GLOBAL STYLES -->
 <!-- BEGIN THEME LAYOUT STYLES -->
 <link href="../assets/layouts/layout2/css/layout.min.css" rel="stylesheet" type="text/css" />
 <link href="../assets/layouts/layout2/css/themes/blue.min.css" rel="stylesheet" type="text/css" id="style_color" />
-
+<link href="../assets/layouts/layout2/css/custom.min.css" rel="stylesheet" type="text/css" />
 <!-- END THEME LAYOUT STYLES -->
 <link rel="shortcut icon" href="favicon.ico" />
 <script src="{{ asset('js/app.js') }}" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="js/vue.min.js" type="text/javascript"></script>
-
-<!-- END HEAD -->

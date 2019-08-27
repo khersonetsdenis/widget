@@ -97,7 +97,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
         <div class="create-account">
             <p>
-                <a href="javascript:;" id="register-btn" class="uppercase">Create an account</a>
+                <a href="{{ route('register') }}" id="register-btn" class="uppercase">Create an account</a>
             </p>
         </div>
 
@@ -164,7 +164,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <label class="control-label visible-ie8 visible-ie9">Повторите пароль</label>
             <input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Re-type Your Password" name="password_confirmation" required autocomplete="new-password" />
         </div>
-        
+
         <div class="form-actions">
             <button type="button" id="register-back-btn" class="btn green btn-outline">Back</button>
             <button type="submit" id="register-submit-btn" class="btn btn-success uppercase pull-right">Submit</button>
@@ -174,9 +174,6 @@ License: You must have a valid license purchased only from themeforest(the above
 </div>
 <div class="copyright"> 2014 © Metronic. Admin Dashboard Template. </div>
 <!--[if lt IE 9]>
-<script src="../assets/global/plugins/respond.min.js"></script>
-<script src="../assets/global/plugins/excanvas.min.js"></script>
-<![endif]-->
 <!-- BEGIN CORE PLUGINS -->
 <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
 <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
@@ -197,6 +194,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="../assets/pages/scripts/login.min.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
+<!-- BEGIN THEME LAYOUT SCRIPTS -->
+<!-- END THEME LAYOUT SCRIPTS -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
 <!-- END THEME LAYOUT SCRIPTS -->
 </body>
